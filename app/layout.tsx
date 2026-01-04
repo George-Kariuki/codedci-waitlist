@@ -6,6 +6,30 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Codedci - Security Checks for Vibe Coders',
   description: 'AI-powered security checks combined with human-led testing for fast-moving teams',
+  icons: {
+    icon: '/logo/codedcilogo.png',
+    shortcut: '/logo/codedcilogo.png',
+    apple: '/logo/codedcilogo.png',
+  },
+  openGraph: {
+    title: 'Codedci - Security Checks for Vibe Coders',
+    description: 'AI-powered security checks combined with human-led testing for fast-moving teams',
+    images: [
+      {
+        url: '/logo/codedcilogo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Codedci Logo',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Codedci - Security Checks for Vibe Coders',
+    description: 'AI-powered security checks combined with human-led testing for fast-moving teams',
+    images: ['/logo/codedcilogo.png'],
+  },
 }
 
 export default function RootLayout({
