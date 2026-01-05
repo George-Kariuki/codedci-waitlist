@@ -39,6 +39,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo/codedcilogo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo/codedcilogo.png" />
+      </head>
       <body className="bg-[#0a0a0f]">
         {children}
         <Analytics />
